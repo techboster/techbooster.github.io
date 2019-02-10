@@ -203,3 +203,23 @@ Main components
   -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
   transition: transform 0.3s 0.7s, opacity 0s 0.7s;
 }
+
+/*=================== image row css  ================== */
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*=================== compairion css ================== */
